@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname='shellsploit-framework'
-pkgver=202.45e4c6d
+pkgver=206.ec26353
 pkgrel=1
 groups=('blackarch' 'blackarch-exploitation' 'blackarch-backdoor')
 pkgdesc='New Generation Exploit Development Kit.'

@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname='veil'
-pkgver=513.e345b01
+pkgver=541.f38d1ca
 pkgrel=1
 epoch=2
 groups=('blackarch' 'blackarch-automation' 'blackarch-exploitation')

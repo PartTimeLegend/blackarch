@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname='spiga'
-pkgver=382.a39bf70
+pkgver=398.e7f8bc0
 pkgrel=1
 epoch=1
 groups=('blackarch' 'blackarch-webapp' 'blackarch-scanner')

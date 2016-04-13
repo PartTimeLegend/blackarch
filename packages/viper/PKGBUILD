@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname='viper'
-pkgver=1050.563de66
+pkgver=1064.b419d4f
 pkgrel=1
 groups=('blackarch' 'blackarch-disassembler' 'blackarch-binary'
         'blackarch-malware')
@@ -50,11 +50,27 @@ package() {
 
   cp -a * "$pkgdir/usr/share/viper"
 
-  cat > "$pkgdir/usr/bin/viper" << EOF
+  cat > "$pkgdir/usr/bin/viper-cli" << EOF
 #!/bin/sh
 cd /usr/share/viper
-exec python2 viper.py "\$@"
+exec python2 viper-cli "\$@"
 EOF
 
-  chmod +x "$pkgdir/usr/bin/viper"
+  chmod +x "$pkgdir/usr/bin/viper-cli"
+
+  cat > "$pkgdir/usr/bin/viper-api" << EOF
+#!/bin/sh
+cd /usr/share/viper
+exec python2 viper-api "\$@"
+EOF
+
+  chmod +x "$pkgdir/usr/bin/viper-api"
+
+  cat > "$pkgdir/usr/bin/viper-web" << EOF
+#!/bin/sh
+cd /usr/share/viper
+exec python2 viper-web "\$@"
+EOF
+
+  chmod +x "$pkgdir/usr/bin/viper-web"
 }

@@ -9,7 +9,6 @@ CH|ftp://mirror.tillo.ch/blackarch/$repo/os/$arch|tillo
 CH|http://mirror.easyname.ch/blackarch/$repo/os/$arch|easyname
 CH|http://mirror.tillo.ch/ftp/blackarch/$repo/os/$arch|tillo
 CH|https://mirror.tillo.ch/ftp/blackarch/$repo/os/$arch|tillo
-CN|http://mirrors.hustunique.com/blackarch/$repo/os/$arch|hustunique
 CN|https://mirrors.ustc.edu.cn/blackarch/$repo/os/$arch|Knight
 DE|http://ftp.halifax.rwth-aachen.de/blackarch/$repo/os/$arch|RWTH-Aachen
 DE|http://blackarch1.curesec.com/blackarch/$repo/os/$arch|Curesec
@@ -33,6 +32,7 @@ NL|https://blackarch.pr0s3c.nl/blackarch/$repo/os/$arch|pr0s3c
 PL|http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/$repo/os/$arch|ICMuniversity
 RU|http://mirror.yandex.ru/mirrors/blackarch/$repo/os/$arch|yandex
 SE|http://mirror.zetup.net/blackarch/$repo/os/$arch/|zetup
+SG|http://download.nus.edu.sg/mirror/blackarch/$repo/os/$arch|NUS
 TR|http://ftp.linux.org.tr/blackarch/$repo/os/$arch/|linux.org.tr
 TW|http://blackarch.cs.nctu.edu.tw/$repo/os/$arch|pichuang
 TW|http://ftp.yzu.edu.tw/Linux/blackarch/$repo/os/$arch|PeterDaveHello

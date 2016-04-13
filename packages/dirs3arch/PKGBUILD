@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname='dirs3arch'
-pkgver=146.fe3f4b3
+pkgver=151.e2ff186
 pkgrel=1
 groups=('blackarch' 'blackarch-webapp' 'blackarch-scanner')
 pkgdesc='HTTP(S) directory/file brute forcer.'
@@ -35,7 +35,7 @@ package() {
   cat > "$pkgdir/usr/bin/dirs3arch" << EOF
 #!/bin/sh
 cd /usr/share/dirs3arch
-exec python dirs3arch.py "\$@"
+exec python dirsearch.py "\$@"
 EOF
 
   chmod +x "$pkgdir/usr/bin/dirs3arch"

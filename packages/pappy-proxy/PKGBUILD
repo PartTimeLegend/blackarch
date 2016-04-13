@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname='pappy-proxy'
-pkgver=29.f4274e1
+pkgver=32.d2f0e5c
 pkgrel=1
 groups=('blackarch' 'blackarch-webapp' 'blackarch-proxy' 'blackarch-scanner'
         'blackarch-fuzzer' 'blackarch-recon')
