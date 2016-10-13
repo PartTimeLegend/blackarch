@@ -2,14 +2,16 @@
 # See COPYING for license details.
 
 pkgname='eyewitness'
-pkgver=490.ed276b0
+pkgver=552.9485a6a
 pkgrel=1
 groups=('blackarch' 'blackarch-webapp' 'blackarch-recon' 'blackarch-misc')
 pkgdesc='Designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.'
 arch=('any')
 url='https://github.com/ChrisTruncer/EyeWitness'
 license=('GPL3')
-depends=('python2' 'python2-pyqt4' 'python2-netaddr' 'ghost-py' 'python2-rdpy')
+depends=('python2' 'python2-pyqt4' 'python2-netaddr' 'ghost-py' 'python2-rdpy'
+         'python2-selenium' 'python2-rsa' 'xorg-server-xvfb'
+         'python2-pyvirtualdisplay' 'python2-easyprocess')
 makedepends=('git')
 source=('git+https://github.com/ChrisTruncer/EyeWitness.git')
 sha1sums=('SKIP')

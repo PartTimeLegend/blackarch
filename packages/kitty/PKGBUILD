@@ -2,8 +2,8 @@
 # See COPYING for license details.
 
 pkgname='kitty'
-pkgver=163.d83a356
-pkgrel=1
+pkgver=276.7f8b945
+pkgrel=3
 groups=('blackarch' 'blackarch-fuzzer')
 pkgdesc='Fuzzing framework written in python.'
 arch=('any')

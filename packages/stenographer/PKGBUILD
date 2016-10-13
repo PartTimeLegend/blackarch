@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname='stenographer'
-pkgver=414.7b68b6d
+pkgver=435.a12106b
 pkgrel=1
 groups=('blackarch' 'blackarch-sniffer' 'blackarch-networking'
         'blackarch-forensic')

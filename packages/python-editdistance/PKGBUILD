@@ -3,13 +3,13 @@
 
 pkgname='python-editdistance'
 pkgver='0.3.1'
-pkgrel=1
+pkgrel=2
 pkgdesc='Fast implementation of the edit distance(Levenshtein distance).'
 url='https://pypi.python.org/pypi/editdistance/'
 depends=('python')
 makedepends=('python-setuptools')
 license=('MIT')
-arch=('any')
+arch=('i686' 'x86_64' 'armv6h' 'armv7h')
 source=("https://pypi.python.org/packages/source/e/editdistance/editdistance-${pkgver}.tar.gz")
 sha1sums=('600b1288d72377fc93b02fbb8c61592ed91f9286')
 

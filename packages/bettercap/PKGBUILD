@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname='bettercap'
-pkgver=776.d239bc3
+pkgver=855.cbb2004
 pkgrel=1
 groups=('blackarch' 'blackarch-sniffer' 'blackarch-exploitation'
         'blackarch-networking')
@@ -24,7 +24,7 @@ pkgver() {
 build() {
   cd "$srcdir/bettercap"
 
-  gem build bettercap.gemspec
+  #gem build bettercap.gemspec
 }
 
 package() {
@@ -35,8 +35,12 @@ package() {
 
   local _gemdir="$(ruby -e'puts Gem.default_dir')"
 
-  gem install --no-user-install -n "$pkgdir/usr/bin" \
-    -i "$pkgdir/$_gemdir" bettercap*.gem
+  # stable version
+  gem install --no-user-install -n "$pkgdir/usr/bin" -i "$pkgdir/$_gemdir" \
+    bettercap
+
+  #gem install --no-user-install -n "$pkgdir/usr/bin" \
+  #  -i "$pkgdir/$_gemdir" bettercap*.gem
 
   install -Dm644 -t "$pkgdir/usr/share/doc/bettercap/" README.md
   install -Dm644 LICENSE.md "$pkgdir/usr/share/licenses/bettercap/LICENSE.md"

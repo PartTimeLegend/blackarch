@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname='changeme'
-pkgver=38.d8f589d
+pkgver=54.48a6958
 pkgrel=1
 groups=('blackarch' 'blackarch-scanner')
 pkgdesc='A default credential scanner.'

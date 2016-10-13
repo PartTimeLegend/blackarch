@@ -2,8 +2,8 @@
 # See COPYING for license details.
 
 pkgname='domi-owned'
-pkgver=22.9e82b2f
-pkgrel=1
+pkgver=26.7a199a5
+pkgrel=3
 groups=('blackarch' 'blackarch-webapp' 'blackarch-cracker'
         'blackarch-fingerprint')
 pkgdesc='A tool used for compromising IBM/Lotus Domino servers.'

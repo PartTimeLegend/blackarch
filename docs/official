@@ -3,6 +3,7 @@ aircrack-ng blackarch-wireless
 afl blackarch-fuzzer blackarch-binary
 atftp blackarch-networking
 arp-scan blackarch-networking blackarch-scanner blackarch-fingerprint
+batctl blackarch-wireless
 binwalk blackarch-disassembler blackarch-firmware blackarch-reversing blackarch-binary
 bsdiff blackarch-reversing blackarch-binary
 cadaver blackarch-networking
@@ -32,7 +33,9 @@ geoip blackarch-networking blackarch-recon
 gnuradio blackarch-wireless
 gqrx blackarch-wireless
 greenbone-security-assistant blackarch-scanner blackarch-fuzzer blackarch-exploitation
+hashcat blackarch-cracker
 hping blackarch-networking
+httping blackarch-networking blackarch-recon
 httptunnel blackarch-tunnel
 hydra blackarch-cracker
 iodine blackarch-tunnel
@@ -41,7 +44,7 @@ iputils blackarch-networking
 jad blackarch-reversing
 jhead blackarch-defensive
 john blackarch-cracker
-kismet blackarch-wireless
+kismet blackarch-wireless blackarch-sniffer
 libpst blackarch-misc
 lldb blackarch-debugger
 lynis blackarch-scanner
@@ -50,6 +53,7 @@ macchanger blackarch-networking blackarch-misc
 makepasswd blackarch-misc
 masscan blackarch-scanner
 medusa blackarch-cracker
+metasploit blackarch-exploitation blackarch-fuzzer blackarch-scanner blackarch-recon blackarch-networking
 mdk3 blackarch-wireless blackarch-fuzzer
 miredo blackarch-networking
 mitmproxy blackarch-proxy blackarch-exploitation
@@ -69,6 +73,7 @@ ophcrack blackarch-cracker
 p0f blackarch-fingerprint blackarch-sniffer
 packeth blackarch-networking
 pathod blackarch-proxy
+peda blackarch-debugger blackarch-exploitation
 perl-image-exiftool blackarch-forensic blackarch-defensive
 pfff blackarch-code-audit
 proxychains-ng blackarch-proxy
@@ -102,6 +107,7 @@ sysdig blackarch-recon
 tcpdump blackarch-networking blackarch-sniffer
 tcpflow blackarch-networking blackarch-sniffer
 tcpreplay blackarch-networking
+thc-ipv6 blackarch-networking blackarch-recon blackarch-dos blackarch-spoof blackarch-scanner
 tinc blackarch-networking
 tinyproxy blackarch-proxy
 tor blackarch-proxy blackarch-tunnel blackarch-networking
@@ -112,7 +118,9 @@ unhide blackarch-forensic
 upx blackarch-binary blackarch-misc
 valabind blackarch-misc
 valgrind blackarch-binary blackarch-code-audit
+veracrypt blackarch-crypto blackarch-defensive
 vidalia blackarch-defensive
+volatility blackarch-forensic
 vulscan blackarch-scanner blackarch-fuzzer
 wavemon blackarch-wireless
 wireshark-cli blackarch-sniffer blackarch-networking

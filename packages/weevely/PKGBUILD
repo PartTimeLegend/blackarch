@@ -2,8 +2,8 @@
 # See COPYING for license details.
 
 pkgname='weevely'
-pkgver=670.7d7dfc9
-pkgrel=1
+pkgver=692.1f1c0a4
+pkgrel=3
 groups=('blackarch' 'blackarch-backdoor' 'blackarch-webapp')
 pkgdesc='Weaponized web shell.'
 arch=('any')

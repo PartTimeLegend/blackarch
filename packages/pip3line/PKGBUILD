@@ -2,8 +2,8 @@
 # See COPYING for license details.
 
 pkgname='pip3line'
-pkgver=90.8cdb486
-pkgrel=1
+pkgver=92.5e27195
+pkgrel=2
 epoch=2
 groups=('blackarch' 'blackarch-crypto')
 pkgdesc='The Swiss army knife of byte manipulation.'

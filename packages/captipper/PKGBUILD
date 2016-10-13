@@ -2,8 +2,8 @@
 # See COPYING for license details.
 
 pkgname='captipper'
-pkgver=66.98d63eb
-pkgrel=1
+pkgver=69.3756598
+pkgrel=3
 groups=('blackarch' 'blackarch-forensic' 'blackarch-malware' 'blackarch-sniffer')
 pkgdesc='Malicious HTTP traffic explorer tool.'
 arch=('any')
